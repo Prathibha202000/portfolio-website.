@@ -74,3 +74,33 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* Skills Section */
+#skills ul {
+  list-style-type: none; /* remove bullets */
+  padding: 0;
+}
+
+#skills li {
+  background: #1e90ff;
+  color: white;
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+/* Contact Section */
+#contact p {
+  font-size: 1.1em;
+  margin: 8px 0;
+}
+
+#contact a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
